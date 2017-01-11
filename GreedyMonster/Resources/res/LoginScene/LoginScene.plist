@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>LoginScene/Pic/anniu_kaishi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,803},{212,155}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{212,155}</string>
+			</dict>
+			<key>LoginScene/Pic/beijing.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{480,800}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{480,800}</string>
+			</dict>
+			<key>LoginScene/Pic/anniu_sc.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1234},{69,71}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{69,71}</string>
+			</dict>
+			<key>LoginScene/Pic/anniu_shengyin1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{50,1017},{69,71}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{69,71}</string>
+			</dict>
+			<key>LoginScene/Pic/anniu_zt.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{50,1090},{48,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,48}</string>
+			</dict>
+			<key>LoginScene/Pic/yx_defen.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1017},{215,47}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{215,47}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>LoginScene.png</string>
+			<key>realTextureFileName</key>
+			<string>LoginScene.png</string>
+			<key>size</key>
+			<string>{482,1306}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>482</integer>
+			<key>height</key>
+			<integer>1306</integer>
+		</dict>
+	</dict>
+</plist>

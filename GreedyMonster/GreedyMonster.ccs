@@ -3,8 +3,26 @@
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
-        <Image Name="HelloWorld.png" />
-        <Project Name="MainScene.csd" Type="Scene" />
+        <Folder Name="LoginScene">
+          <Folder Name="Pic">
+            <Image Name="anniu_kaishi.png" />
+            <Image Name="anniu_sc.png" />
+            <Image Name="anniu_shengyin1.png" />
+            <Image Name="anniu_zt.png" />
+            <Image Name="beijing.png" />
+            <Image Name="yx_defen.png" />
+          </Folder>
+          <Project Name="LoginScene.csd" Type="Scene" />
+          <Project Name="LoginLayer.csd" Type="Layer" />
+          <PlistInfo Name="LoginScene.csi" Type="Plist" />
+          <Project Name="MenuLayer.csd" Type="Layer" />
+        </Folder>
+        <Folder Name="GameScene">
+          <Project Name="GameScene.csd" Type="Scene" />
+          <Folder Name="Pic" />
+          <Project Name="GameLayer.csd" Type="Layer" />
+          <PlistInfo Name="GameLayer.csi" Type="Plist" />
+        </Folder>
       </RootFolder>
     </Group>
   </SolutionFolder>

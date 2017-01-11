@@ -1,0 +1,14 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="LoginScene" Type="Plist" ID="4826b1bc-1fa1-40a6-9b1a-d9e465dcd287" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="LoginScene/Pic/anniu_kaishi.png" />
+      <FilePathData Path="LoginScene/Pic/beijing.png" />
+      <FilePathData Path="LoginScene/Pic/anniu_sc.png" />
+      <FilePathData Path="LoginScene/Pic/anniu_shengyin1.png" />
+      <FilePathData Path="LoginScene/Pic/anniu_zt.png" />
+      <FilePathData Path="LoginScene/Pic/yx_defen.png" />
+    </ImageFiles>
+    <MaxSize Width="2048" Height="2048" />
+  </Content>
+</PlistInfoProjectFile>
