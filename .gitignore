@@ -27,3 +27,13 @@
 *.exe
 *.out
 *.app
+
+
+/GreedyMonster/cocos2d
+/GreedyMonster/proj.android
+/GreedyMonster/proj.android-studio
+/GreedyMonster/proj.ios_mac
+/GreedyMonster/proj.linux
+/GreedyMonster/proj.win8.1-universal
+/GreedyMonster/proj.win10
+/GreedyMonster/proj.win32
