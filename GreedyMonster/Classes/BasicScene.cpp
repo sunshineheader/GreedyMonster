@@ -29,11 +29,23 @@ void BasicScene::onExit()
 
 }
 
-void BasicScene::onReplaceScene(BasicScene* basic, bool isRandom)
+void BasicScene::onReplaceScene(Scene* basic, bool isRandom)
 {
+	Scene* target = nullptr;
 	if (isRandom) {
-		basic = dynamic_cast<BasicScene*>(GameHelper::onRandomScene());
+		target = GameHelper::onRandomScene(basic);
 	}
+	else {
+		target = basic;
+	}
+	Director::getInstance()->replaceScene(target);
+}
 
-	Director::getInstance()->replaceScene(basic);
+void BasicScene::onPauseGame()
+{
+	Director::getInstance()->pause();
+}
+void BasicScene::onResumeGame()
+{
+	Director::getInstance()->resume();
 }

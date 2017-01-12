@@ -4,11 +4,10 @@
 #include "LoginScene.h"
 
 LoginScene::LoginScene()
-
 {}
+
 LoginScene::~LoginScene()
 {}
-
 
 LoginScene* LoginScene::create()
 {
@@ -22,7 +21,6 @@ LoginScene* LoginScene::create()
 	return nullptr;
 }
 
-
 bool LoginScene::init()
 {
 	if (!BasicScene::init())
@@ -32,14 +30,15 @@ bool LoginScene::init()
 	this->_doUI = std::bind(&LoginScene::doUI, this);
 	return true;
 }
+
 void LoginScene::doUI()
 {
 	auto rootNode = CSLoader::createNode("LoginScene/LoginScene.csb");
 	addChild(rootNode);
-
+	
 	m_menuLayer = MenuLayer::create();
 	addChild(m_menuLayer);
 
-	m_loginLayer = LoginLayer::create();
+	m_loginLayer = LoginLayer::create(this);
 	addChild(m_loginLayer);
 }

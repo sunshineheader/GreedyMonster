@@ -5,13 +5,12 @@ class LoginScene;
 class LoginLayer :public BasicLayer
 {
 public:
-	static LoginLayer* create();
-
+	static LoginLayer* create( LoginScene* loginScene);
 protected:
 	LoginLayer();
 	~LoginLayer();
 private:
-	virtual bool init();
+	virtual bool init( LoginScene* loginScene);
 	void doUI();
 private:
 	void startBtnCallBack(cocos2d::Ref* psender);

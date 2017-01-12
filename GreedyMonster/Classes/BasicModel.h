@@ -7,7 +7,7 @@ protected:
 	BasicModel();
 	~BasicModel();
 protected:
-
+	
 };
 
 

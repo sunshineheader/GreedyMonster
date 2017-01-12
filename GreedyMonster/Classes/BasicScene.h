@@ -19,9 +19,10 @@ protected:
 	virtual bool init();
 	virtual void onEnter();
 	virtual void onExit();
-protected:
-	void onReplaceScene(BasicScene* basic, bool isRandom = false);
-
+public:
+	void onReplaceScene(Scene* basic, bool isRandom = false);
+	void onPauseGame();
+	void onResumeGame();
 protected:
 	std::function<void()>_doEvent;
 	std::function<void()>_doUI;

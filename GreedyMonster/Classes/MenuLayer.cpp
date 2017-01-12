@@ -1,4 +1,6 @@
+#include "PauseLayer.h"
 #include "MenuLayer.h"
+
 MenuLayer::MenuLayer()
 {}
 MenuLayer::~MenuLayer()
@@ -42,8 +44,9 @@ void MenuLayer::doUI()
 
 void MenuLayer::pauseBtnCallBack(cocos2d::Ref* psender)
 {
+	PauseLayer* pauseLayer = PauseLayer::create();
+	this->getParent()->addChild(pauseLayer);
 }
 
 void MenuLayer::shopBtnCallBack(cocos2d::Ref* psender)
-{
-}
+{}

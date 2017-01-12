@@ -9,8 +9,7 @@ public:
 	GameHelper();
 	~GameHelper();
 	static cocos2d::Node* seekNodeByName(cocos2d::Node* root, const std::string& name);
-	static cocos2d::Scene* onRandomScene();
-
+	static cocos2d::Scene* onRandomScene(cocos2d::Scene* scene);
 private:
 
 };

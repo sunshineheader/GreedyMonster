@@ -10,10 +10,10 @@ LoginLayer::~LoginLayer()
 {}
 
 
-LoginLayer*LoginLayer::create()
+LoginLayer*LoginLayer::create( LoginScene* loginScene)
 {
 	LoginLayer* loginLayer = new (std::nothrow) LoginLayer();
-	if (loginLayer && loginLayer->init())
+	if (loginLayer && loginLayer->init(loginScene))
 	{
 		loginLayer->autorelease();
 		return loginLayer;
@@ -23,12 +23,13 @@ LoginLayer*LoginLayer::create()
 }
 
 
-bool LoginLayer::init()
+bool LoginLayer::init( LoginScene* loginScene)
 {
 	if (!BasicLayer::init())
 	{
 		return false;
 	}
+	m_loginScene = loginScene;
 	this->_doUI = std::bind(&LoginLayer::doUI, this);
 	return true;
 }
@@ -49,6 +50,6 @@ void LoginLayer::doUI()
 }
 void LoginLayer::startBtnCallBack(cocos2d::Ref* psender)
 {
-	Director::getInstance()->replaceScene(GameScene::create());
+	m_loginScene->onReplaceScene(GameScene::create(),true);
 }
 
