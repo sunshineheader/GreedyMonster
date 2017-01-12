@@ -21,6 +21,16 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
+          <AbstractNodeData Name="title" ActionTag="-1356728672" Tag="9" IconVisible="False" LeftMargin="72.0001" RightMargin="67.9999" TopMargin="133.0000" BottomMargin="533.0000" LeftEage="112" RightEage="112" TopEage="44" BottomEage="44" Scale9OriginX="112" Scale9OriginY="44" Scale9Width="116" Scale9Height="46" ctype="ImageViewObjectData">
+            <Size X="340.0000" Y="134.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="242.0001" Y="600.0000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5042" Y="0.7500" />
+            <PreSize X="0.7083" Y="0.1675" />
+            <FileData Type="MarkedSubImage" Path="LoginScene/Pic/biaoti.png" Plist="LoginScene/LoginScene.plist" />
+          </AbstractNodeData>
         </Children>
       </ObjectData>
     </Content>

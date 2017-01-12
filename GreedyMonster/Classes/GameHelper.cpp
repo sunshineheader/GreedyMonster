@@ -30,6 +30,7 @@ cocos2d::Scene* GameHelper::onRandomScene(cocos2d::Scene* scene)
 {
 	cocos2d::Scene* target = nullptr;
 	int onRandom = cocos2d::random() % 40;
+	log("onRandom is %d", onRandom);
 	if (onRandom == 0 ) {
 		target = TransitionCrossFade::create(0.2, scene);
 	}
@@ -85,7 +86,7 @@ cocos2d::Scene* GameHelper::onRandomScene(cocos2d::Scene* scene)
 		target = TransitionPageTurn::create(0.2, scene, true);
 	}
 	else if (onRandom == 18){
-		target = TransitionProgress::create(0.2, scene);
+		target = TransitionScene::create(0.2, scene);
 	}
 	else if (onRandom == 19){
 		target = TransitionProgressHorizontal::create(0.2, scene);
@@ -149,6 +150,17 @@ cocos2d::Scene* GameHelper::onRandomScene(cocos2d::Scene* scene)
 	}
 	else if (onRandom == 39){
 		target = TransitionZoomFlipY::create(0.2, scene);
+	}
+	return target;
+}
+
+cocos2d::Action* GameHelper::onRandomAction()
+{
+	cocos2d::Action* target = nullptr;
+	int onRandom = cocos2d::random() % 10;
+	if (onRandom == 0) {
+	}
+	else if (onRandom == 1){
 	}
 	return target;
 }

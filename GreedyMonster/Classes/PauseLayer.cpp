@@ -32,5 +32,15 @@ void PauseLayer::doUI()
 {
 	auto rootNode = CSLoader::createNode("LoginScene/PauseLayer.csb");
 	addChild(rootNode);
+
+	Button* contiueBtn = static_cast<Button*>(GameHelper::seekNodeByName(rootNode, "contine_button"));
+	contiueBtn->addClickEventListener(CC_CALLBACK_1(PauseLayer::contiueBtnCallBack, this));
+
+	Button* restartBtn = static_cast<Button*>(GameHelper::seekNodeByName(rootNode, "restart_button"));
+	restartBtn->addClickEventListener(CC_CALLBACK_1(PauseLayer::restartBtnCallBack, this));
 }
 
+void PauseLayer::contiueBtnCallBack(cocos2d::Ref* ref)
+{}
+void PauseLayer::restartBtnCallBack(cocos2d::Ref* ref)
+{}

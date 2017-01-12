@@ -7,7 +7,7 @@
 			<key>LoginScene/Pic/anniu_kaishi.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1,803},{212,155}}</string>
+				<string>{{1,1145},{212,155}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -29,7 +29,7 @@
 			<key>LoginScene/Pic/anniu_sc.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1,1234},{69,71}}</string>
+				<string>{{208,803},{69,71}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -40,7 +40,7 @@
 			<key>LoginScene/Pic/anniu_shengyin1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{50,1017},{69,71}}</string>
+				<string>{{208,876},{69,71}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -51,7 +51,7 @@
 			<key>LoginScene/Pic/anniu_zt.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{50,1090},{48,48}}</string>
+				<string>{{208,949},{48,48}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -62,13 +62,46 @@
 			<key>LoginScene/Pic/yx_defen.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{1,1017},{215,47}}</string>
+				<string>{{137,1086},{215,47}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{215,47}</string>
+			</dict>
+			<key>LoginScene/Pic/anniu_chongxin.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{137,803},{210,69}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<true />
 				<key>sourceSize</key>
-				<string>{215,47}</string>
+				<string>{210,69}</string>
+			</dict>
+			<key>LoginScene/Pic/anniu_jixu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{137,1015},{210,69}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{210,69}</string>
+			</dict>
+			<key>LoginScene/Pic/biaoti.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,803},{340,134}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{340,134}</string>
 			</dict>
 		</dict>
 		<key>metadata</key>
@@ -80,14 +113,14 @@
 			<key>realTextureFileName</key>
 			<string>LoginScene.png</string>
 			<key>size</key>
-			<string>{482,1306}</string>
+			<string>{482,1358}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
 			<integer>482</integer>
 			<key>height</key>
-			<integer>1306</integer>
+			<integer>1358</integer>
 		</dict>
 	</dict>
 </plist>

@@ -9,9 +9,12 @@ public:
 protected:
 	PauseLayer();
 	~PauseLayer();
-
 private:
 	virtual bool init() override;
 	void doUI();
+private:
+	void contiueBtnCallBack(cocos2d::Ref* ref);
+	void restartBtnCallBack(cocos2d::Ref* ref);
+
 };
 #endif

@@ -1,0 +1,13 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="OverScene" Type="Plist" ID="bf5a630a-251e-4b70-a22a-80ebd97cb7f3" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="OverScene/Pic/anniu_chonglai.png" />
+      <FilePathData Path="OverScene/Pic/anniu_fanhui.png" />
+      <FilePathData Path="OverScene/Pic/js_bejing.png" />
+      <FilePathData Path="OverScene/Pic/js_jilu.png" />
+      <FilePathData Path="OverScene/Pic/js_lishi.png" />
+    </ImageFiles>
+    <MaxSize Width="2048" Height="2048" />
+  </Content>
+</PlistInfoProjectFile>

@@ -4,18 +4,23 @@
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
         <Folder Name="GameScene">
-          <Folder Name="Pic" />
+          <Folder Name="Pic">
+            <Image Name="blood.png" />
+          </Folder>
           <Project Name="GameLayer.csd" Type="Layer" />
           <PlistInfo Name="GameLayer.csi" Type="Plist" />
           <Project Name="GameScene.csd" Type="Scene" />
         </Folder>
         <Folder Name="LoginScene">
           <Folder Name="Pic">
+            <Image Name="anniu_chongxin.png" />
+            <Image Name="anniu_jixu.png" />
             <Image Name="anniu_kaishi.png" />
             <Image Name="anniu_sc.png" />
             <Image Name="anniu_shengyin1.png" />
             <Image Name="anniu_zt.png" />
             <Image Name="beijing.png" />
+            <Image Name="biaoti.png" />
             <Image Name="yx_defen.png" />
           </Folder>
           <Project Name="LoginLayer.csd" Type="Layer" />
@@ -23,6 +28,27 @@
           <PlistInfo Name="LoginScene.csi" Type="Plist" />
           <Project Name="MenuLayer.csd" Type="Layer" />
           <Project Name="PauseLayer.csd" Type="Layer" />
+        </Folder>
+        <Folder Name="OverScene">
+          <Folder Name="Pic">
+            <Image Name="anniu_chonglai.png" />
+            <Image Name="anniu_fanhui.png" />
+            <Image Name="js_bejing.png" />
+            <Image Name="js_jilu.png" />
+            <Image Name="js_lishi.png" />
+          </Folder>
+          <Project Name="OverScene.csd" Type="Scene" />
+          <Project Name="OverLayer.csd" Type="Layer" />
+          <PlistInfo Name="OverScene.csi" Type="Plist" />
+        </Folder>
+        <Folder Name="Public">
+          <Folder Name="Pic">
+            <Image Name="js_shuzi.png" />
+            <Image Name="sc_shuzi.png" />
+            <Image Name="sc_shuzi2.png" />
+            <Image Name="sc_shuzi3.png" />
+            <Image Name="yx_shuzi.png" />
+          </Folder>
         </Folder>
       </RootFolder>
     </Group>

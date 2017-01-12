@@ -8,6 +8,9 @@
       <FilePathData Path="LoginScene/Pic/anniu_shengyin1.png" />
       <FilePathData Path="LoginScene/Pic/anniu_zt.png" />
       <FilePathData Path="LoginScene/Pic/yx_defen.png" />
+      <FilePathData Path="LoginScene/Pic/anniu_chongxin.png" />
+      <FilePathData Path="LoginScene/Pic/anniu_jixu.png" />
+      <FilePathData Path="LoginScene/Pic/biaoti.png" />
     </ImageFiles>
     <MaxSize Width="2048" Height="2048" />
   </Content>

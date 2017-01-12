@@ -1,7 +1,7 @@
+#include "GameLayer.h"
 #include "GameScene.h"
 
 GameScene::GameScene()
-
 {}
 GameScene::~GameScene()
 {}
@@ -32,4 +32,7 @@ void GameScene::doUI()
 {
 	auto rootNode = CSLoader::createNode("GameScene/GameScene.csb");
 	addChild(rootNode);
+
+	m_gameLayer = GameLayer::create(this);
+	addChild(m_gameLayer);
 }

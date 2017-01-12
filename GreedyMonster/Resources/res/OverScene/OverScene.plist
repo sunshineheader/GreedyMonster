@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>OverScene/Pic/anniu_chonglai.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1075},{69,71}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{69,71}</string>
+			</dict>
+			<key>OverScene/Pic/anniu_fanhui.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{39,932},{69,71}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{69,71}</string>
+			</dict>
+			<key>OverScene/Pic/js_bejing.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{480,800}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{480,800}</string>
+			</dict>
+			<key>OverScene/Pic/js_jilu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,803},{127,44}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{127,44}</string>
+			</dict>
+			<key>OverScene/Pic/js_lishi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,932},{141,36}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{141,36}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>OverScene.png</string>
+			<key>realTextureFileName</key>
+			<string>OverScene.png</string>
+			<key>size</key>
+			<string>{482,1147}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>482</integer>
+			<key>height</key>
+			<integer>1147</integer>
+		</dict>
+	</dict>
+</plist>
